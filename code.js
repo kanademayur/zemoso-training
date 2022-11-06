@@ -52,8 +52,14 @@ function randStartAndEnd(){
     let startVal = document.getElementById("randStart").value
     let endVal = document.getElementById("randEnd").value
 
-    let newRandVal = randomGenerator(startVal , endVal)
-    document.getElementById("p2").innerHTML = newRandVal
+    let newRandValue = randomGenerator(startVal , endVal)
+    while(newRandValue<startVal)
+    {
+        newRandValue=randomGenerator(startVal,endVal)
+        
+    }
+    document.getElementById("p2").innerText=newRandValue
+    //document.getElementById("p2").innerHTML = newRandVal
 
 }
 
