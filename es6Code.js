@@ -58,8 +58,15 @@ const randomNumber=()=>{
     const startVal = document.getElementById("randStart").value
     const endVal = document.getElementById("randEnd").value
 
-    const newRandVal = randomGenerator(startVal , endVal)
-    document.getElementById("p2").innerHTML = newRandVal
+    let newRandValue = randomGenerator(startVal , endVal)
+    while(newRandValue<startVal)
+    {
+        newRandValue=randomGenerator(startVal,endVal)
+        
+    }
+    document.getElementById("p2").innerText=newRandValue
+    
+    //document.getElementById("p2").innerHTML = newRandVal
  }
 
  //Returns a long Lorem Ipsum String
