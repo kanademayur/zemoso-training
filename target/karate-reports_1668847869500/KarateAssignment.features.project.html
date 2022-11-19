@@ -1,0 +1,2230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("34cc8fa6-d284-4ef6-90b9-846561e6d986",{name:"mayuk"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>KarateAssignment.features.project</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-11-19 02:20:58 pm</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:7]"><span>[1:7]</span> <span>CRUD Projects</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">KarateAssignment/features/project.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">TODOist API Assignment</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:7]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">tag1</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:7]</span>
+                <span class="scenario-name">CRUD Projects</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>13220</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:7]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:7]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseURL</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">14:20:44.776 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;projects&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Authorization = &#39; Bearer &#39;+ tokenID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">939</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">14:20:44.781 request:
+1 &gt; GET https://api.todoist.com/rest/v1/projects
+1 &gt; Authorization:  Bearer d5e6004200dd0e7037eeb371cf23e6c9ec1c6d72
+1 &gt; Host: api.todoist.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.17)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+14:20:45.715 response time in milliseconds: 932
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Date: Sat, 19 Nov 2022 08:50:45 GMT
+1 &lt; Access-Control-Allow-Credentials: false
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 &lt; Vary: Accept-Encoding
+1 &lt; Warning: 119 - &quot;Deprecated API version. Will be removed on 2022-11-30&quot;
+1 &lt; X-Cache: Miss from cloudfront
+1 &lt; Via: 1.1 42c82f231b0a4d050daeb1e8e5afdece.cloudfront.net (CloudFront)
+1 &lt; X-Amz-Cf-Pop: BOM78-P5
+1 &lt; X-Amz-Cf-Id: 0AwdcMBHoJvkIdwIhwU2NjHiRNSE98mUEcRDFUArXfQ_f-blOmMBTw==
+1 &lt; Set-Cookie: csrf=58aa3078a2e444e095e575f84e8e3e57; Max-Age=1984207845000; Expires=Fri, 04 Dec 64899 22:40:45 GMT; Domain=api.todoist.com; Secure
+[
+	{
+		&quot;id&quot;: 2300933332,
+		&quot;color&quot;: 48,
+		&quot;name&quot;: &quot;Inbox&quot;,
+		&quot;comment_count&quot;: 0,
+		&quot;shared&quot;: false,
+		&quot;favorite&quot;: false,
+		&quot;sync_id&quot;: 0,
+		&quot;inbox_project&quot;: true,
+		&quot;url&quot;: &quot;https://todoist.com/showProject?id=2300933332&quot;
+	},
+	{
+		&quot;id&quot;: 2302672150,
+		&quot;order&quot;: 14,
+		&quot;color&quot;: 47,
+		&quot;name&quot;: &quot;Shopping List&quot;,
+		&quot;comment_count&quot;: 0,
+		&quot;shared&quot;: false,
+		&quot;favorite&quot;: false,
+		&quot;sync_id&quot;: 0,
+		&quot;url&quot;: &quot;https://todoist.com/showProject?id=2302672150&quot;
+	},
+	{
+		&quot;id&quot;: 2302672322,
+		&quot;order&quot;: 15,
+		&quot;color&quot;: 47,
+		&quot;name&quot;: &quot;Shopping List&quot;,
+		&quot;comment_count&quot;: 0,
+		&quot;shared&quot;: false,
+		&quot;favorite&quot;: false,
+		&quot;sync_id&quot;: 0,
+		&quot;url&quot;: &quot;https://todoist.com/showProject?id=2302672322&quot;
+	},
+	{
+		&quot;id&quot;: 2302672440,
+		&quot;order&quot;: 16,
+		&quot;color&quot;: 47,
+		&quot;name&quot;: &quot;Shopping List&quot;,
+		&quot;comment_count&quot;: 0,
+		&quot;shared&quot;: false,
+		&quot;favorite&quot;: false,
+		&quot;sync_id&quot;: 0,
+		&quot;url&quot;: &quot;https://todoist.com/showProject?id=2302672440&quot;
+	},
+	{
+		&quot;id&quot;: 2302672467,
+		&quot;order&quot;: 17,
+		&quot;color&quot;: 47,
+		&quot;name&quot;: &quot;Things To Buy&quot;,
+		&quot;comment_count&quot;: 0,
+		&quot;shared&quot;: false,
+		&quot;favorite&quot;: false,
+		&quot;sync_id&quot;: 0,
+		&quot;url&quot;: &quot;https://todoist.com/showProject?id=2302672467&quot;
+	},
+	{
+		&quot;id&quot;: 2302675482,
+		&quot;order&quot;: 18,
+		&quot;color&quot;: 47,
+		&quot;name&quot;: &quot;Things To Buy&quot;,
+		&quot;comment_count&quot;: 0,
+		&quot;shared&quot;: false,
+		&quot;favorite&quot;: false,
+		&quot;sync_id&quot;: 0,
+		&quot;url&quot;: &quot;https://todoist.com/showProject?id=2302675482&quot;
+	},
+	{
+		&quot;id&quot;: 2302675592,
+		&quot;order&quot;: 19,
+		&quot;color&quot;: 47,
+		&quot;name&quot;: &quot;Things To Buy&quot;,
+		&quot;comment_count&quot;: 0,
+		&quot;shared&quot;: false,
+		&quot;favorite&quot;: false,
+		&quot;sync_id&quot;: 0,
+		&quot;url&quot;: &quot;https://todoist.com/showProject?id=2302675592&quot;
+	}
+]
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Create Project</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &quot;projects&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def body = read(&quot;Data.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request body.createProject</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Authorization = &#39;Bearer &#39;+tokenID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1319</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.19">14:20:45.730 request:
+2 &gt; POST https://api.todoist.com/rest/v1/projects
+2 &gt; Authorization: Bearer d5e6004200dd0e7037eeb371cf23e6c9ec1c6d72
+2 &gt; Cookie: csrf=58aa3078a2e444e095e575f84e8e3e57
+2 &gt; Content-Type: application/json; charset=UTF-8
+2 &gt; Content-Length: 24
+2 &gt; Host: api.todoist.com
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.17)
+2 &gt; Accept-Encoding: gzip,deflate
+{&quot;name&quot;:&quot;Shopping List&quot;}
+
+14:20:47.043 response time in milliseconds: 1312
+2 &lt; 200
+2 &lt; Content-Type: application/json
+2 &lt; Content-Length: 207
+2 &lt; Connection: keep-alive
+2 &lt; Date: Sat, 19 Nov 2022 08:50:46 GMT
+2 &lt; Access-Control-Allow-Credentials: false
+2 &lt; Access-Control-Allow-Origin: *
+2 &lt; Cache-Control: no-cache
+2 &lt; Referrer-Policy: strict-origin-when-cross-origin
+2 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+2 &lt; Vary: Accept-Encoding
+2 &lt; Warning: 119 - &quot;Deprecated API version. Will be removed on 2022-11-30&quot;
+2 &lt; X-Cache: Miss from cloudfront
+2 &lt; Via: 1.1 d8a08c73e57442ba7d4fdf708da56e92.cloudfront.net (CloudFront)
+2 &lt; X-Amz-Cf-Pop: BOM78-P5
+2 &lt; X-Amz-Cf-Id: 3QaUpCFR4lmdHBL9HMC6f7xqQQ_pU1XJMBsfaxo7s4-Bw6-VM7IduA==
+{
+	&quot;id&quot;: 2302676063,
+	&quot;order&quot;: 20,
+	&quot;color&quot;: 47,
+	&quot;name&quot;: &quot;Shopping List&quot;,
+	&quot;comment_count&quot;: 0,
+	&quot;shared&quot;: false,
+	&quot;favorite&quot;: false,
+	&quot;sync_id&quot;: 0,
+	&quot;url&quot;: &quot;https://todoist.com/showProject?id=2302676063&quot;
+}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def projectID = response.id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Get project</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;projects/&#39;+projectID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Authorization = &#39; Bearer &#39;+ tokenID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">812</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.26">14:20:47.053 request:
+3 &gt; GET https://api.todoist.com/rest/v1/projects/2302676063
+3 &gt; Authorization:  Bearer d5e6004200dd0e7037eeb371cf23e6c9ec1c6d72
+3 &gt; Cookie: csrf=58aa3078a2e444e095e575f84e8e3e57
+3 &gt; Host: api.todoist.com
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.17)
+3 &gt; Accept-Encoding: gzip,deflate
+
+
+14:20:47.859 response time in milliseconds: 805
+3 &lt; 200
+3 &lt; Content-Type: application/json
+3 &lt; Content-Length: 207
+3 &lt; Connection: keep-alive
+3 &lt; Date: Sat, 19 Nov 2022 08:50:47 GMT
+3 &lt; Access-Control-Allow-Credentials: false
+3 &lt; Access-Control-Allow-Origin: *
+3 &lt; Referrer-Policy: strict-origin-when-cross-origin
+3 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+3 &lt; Vary: Accept-Encoding
+3 &lt; Warning: 119 - &quot;Deprecated API version. Will be removed on 2022-11-30&quot;
+3 &lt; X-Cache: Miss from cloudfront
+3 &lt; Via: 1.1 f4bb20c87d16b2dbe5d1a85f19c67294.cloudfront.net (CloudFront)
+3 &lt; X-Amz-Cf-Pop: BOM78-P5
+3 &lt; X-Amz-Cf-Id: rlbBLblhD3fIM1EuDYvuGyYEooVdvz7uJxBeViaQy6iFB8wzaXxcXw==
+{
+	&quot;id&quot;: 2302676063,
+	&quot;order&quot;: 20,
+	&quot;color&quot;: 47,
+	&quot;name&quot;: &quot;Shopping List&quot;,
+	&quot;comment_count&quot;: 0,
+	&quot;shared&quot;: false,
+	&quot;favorite&quot;: false,
+	&quot;sync_id&quot;: 0,
+	&quot;url&quot;: &quot;https://todoist.com/showProject?id=2302676063&quot;
+}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Update Project</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;projects/&#39;+projectID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def body1 = read(&quot;Data.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.31">
+      <div class="step-ref passed">31</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request body1.updateProject</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Authorization = &#39; Bearer &#39;+ tokenID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1325</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.33">14:20:47.870 request:
+4 &gt; POST https://api.todoist.com/rest/v1/projects/2302676063
+4 &gt; Authorization:  Bearer d5e6004200dd0e7037eeb371cf23e6c9ec1c6d72
+4 &gt; Cookie: csrf=58aa3078a2e444e095e575f84e8e3e57
+4 &gt; Content-Type: application/json; charset=UTF-8
+4 &gt; Content-Length: 24
+4 &gt; Host: api.todoist.com
+4 &gt; Connection: Keep-Alive
+4 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.17)
+4 &gt; Accept-Encoding: gzip,deflate
+{&quot;name&quot;:&quot;Things To Buy&quot;}
+
+14:20:49.190 response time in milliseconds: 1319
+4 &lt; 204
+4 &lt; Content-Type: text/html; charset=utf-8
+4 &lt; Connection: keep-alive
+4 &lt; Date: Sat, 19 Nov 2022 08:50:49 GMT
+4 &lt; Access-Control-Allow-Credentials: false
+4 &lt; Access-Control-Allow-Origin: *
+4 &lt; Cache-Control: no-cache
+4 &lt; Referrer-Policy: strict-origin-when-cross-origin
+4 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+4 &lt; Vary: Accept-Encoding
+4 &lt; Warning: 119 - &quot;Deprecated API version. Will be removed on 2022-11-30&quot;
+4 &lt; X-Cache: Miss from cloudfront
+4 &lt; Via: 1.1 d50d717134ed031589d1b934a41d279a.cloudfront.net (CloudFront)
+4 &lt; X-Amz-Cf-Pop: BOM78-P5
+4 &lt; X-Amz-Cf-Id: gj9Sds1WPnzSgQYVpyzl-W1EULKRHS730KRlVT-k3Ibo9fP4hqzz1A==
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 204</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Get all colaboratorss</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref passed">39</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;projects/&#39;+projectID +&quot;/collaborators&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.40">
+      <div class="step-ref passed">40</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Authorization = &#39; Bearer &#39;+ tokenID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.41">
+      <div class="step-ref passed">41</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">817</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.41">14:20:49.197 request:
+5 &gt; GET https://api.todoist.com/rest/v1/projects/2302676063/collaborators
+5 &gt; Authorization:  Bearer d5e6004200dd0e7037eeb371cf23e6c9ec1c6d72
+5 &gt; Cookie: csrf=58aa3078a2e444e095e575f84e8e3e57
+5 &gt; Host: api.todoist.com
+5 &gt; Connection: Keep-Alive
+5 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.17)
+5 &gt; Accept-Encoding: gzip,deflate
+
+
+14:20:50.009 response time in milliseconds: 811
+5 &lt; 200
+5 &lt; Content-Type: application/json
+5 &lt; Content-Length: 3
+5 &lt; Connection: keep-alive
+5 &lt; Date: Sat, 19 Nov 2022 08:50:49 GMT
+5 &lt; Access-Control-Allow-Credentials: false
+5 &lt; Access-Control-Allow-Origin: *
+5 &lt; Referrer-Policy: strict-origin-when-cross-origin
+5 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+5 &lt; Vary: Accept-Encoding
+5 &lt; Warning: 119 - &quot;Deprecated API version. Will be removed on 2022-11-30&quot;
+5 &lt; X-Cache: Miss from cloudfront
+5 &lt; Via: 1.1 69288c687b19fefbb271f533b15b6b92.cloudfront.net (CloudFront)
+5 &lt; X-Amz-Cf-Pop: BOM78-P5
+5 &lt; X-Amz-Cf-Id: qCMLVtFfkarmGjvVSDVj12_Emfd_vLR0457FvwiD8vB-YaVOWffDLQ==
+[]
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.44">
+      <div class="step-ref passed">44</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def id = call read(&#39;section.feature&#39;) {project_id : &#39;#(projectID)&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7990</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.44.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">KarateAssignment.features.section</div>
+      </div>
+      <div class="time-cell passed">7958</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseURL</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &quot;sections&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def parameters =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.44.0.call.0.9">{
+    project_id : &#39;#(projectID)&#39;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.15">
+      <div class="step-ref passed">15</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>params parameters</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.16">
+      <div class="step-ref passed">16</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Authorization = &#39;Bearer &#39;+tokenID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.17">
+      <div class="step-ref passed">17</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1502</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.44.0.call.0.17">14:20:50.049 request:
+6 &gt; GET https://api.todoist.com/rest/v1/sections?project_id=2302676063
+6 &gt; Authorization: Bearer d5e6004200dd0e7037eeb371cf23e6c9ec1c6d72
+6 &gt; Cookie: csrf=58aa3078a2e444e095e575f84e8e3e57
+6 &gt; Host: api.todoist.com
+6 &gt; Connection: Keep-Alive
+6 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.17)
+6 &gt; Accept-Encoding: gzip,deflate
+
+
+14:20:51.545 response time in milliseconds: 1495
+6 &lt; 200
+6 &lt; Content-Type: application/json
+6 &lt; Content-Length: 3
+6 &lt; Connection: keep-alive
+6 &lt; Date: Sat, 19 Nov 2022 08:50:51 GMT
+6 &lt; Access-Control-Allow-Credentials: false
+6 &lt; Access-Control-Allow-Origin: *
+6 &lt; Referrer-Policy: strict-origin-when-cross-origin
+6 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+6 &lt; Vary: Accept-Encoding
+6 &lt; Warning: 119 - &quot;Deprecated API version. Will be removed on 2022-11-30&quot;
+6 &lt; X-Cache: Miss from cloudfront
+6 &lt; Via: 1.1 5131642d4ce8d1e181c48addbfe010e6.cloudfront.net (CloudFront)
+6 &lt; X-Amz-Cf-Pop: BOM78-P5
+6 &lt; X-Amz-Cf-Id: _wrzDltGev8Fl96VBn0r9GySnHmYb_iEw9J5t0ymT4Za9zIAbOPp1g==
+[]
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.18">
+      <div class="step-ref passed">18</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell comment">#Create a new section</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.21">
+      <div class="step-ref passed">21</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &quot;sections&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.22">
+      <div class="step-ref passed">22</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def body = read(&quot;Data.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.23">
+      <div class="step-ref passed">23</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request body.createSections</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.24">
+      <div class="step-ref passed">24</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Authorization = &#39;Bearer &#39;+tokenID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.25">
+      <div class="step-ref passed">25</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1232</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.44.0.call.0.25">14:20:51.554 request:
+7 &gt; POST https://api.todoist.com/rest/v1/sections
+7 &gt; Authorization: Bearer d5e6004200dd0e7037eeb371cf23e6c9ec1c6d72
+7 &gt; Cookie: csrf=58aa3078a2e444e095e575f84e8e3e57
+7 &gt; Content-Type: application/json; charset=UTF-8
+7 &gt; Content-Length: 46
+7 &gt; Host: api.todoist.com
+7 &gt; Connection: Keep-Alive
+7 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.17)
+7 &gt; Accept-Encoding: gzip,deflate
+{&quot;project_id&quot;:&quot;2302675592&quot;,&quot;name&quot;:&quot;Groceries&quot;}
+
+14:20:52.782 response time in milliseconds: 1227
+7 &lt; 200
+7 &lt; Content-Type: application/json
+7 &lt; Content-Length: 83
+7 &lt; Connection: keep-alive
+7 &lt; Date: Sat, 19 Nov 2022 08:50:52 GMT
+7 &lt; Access-Control-Allow-Credentials: false
+7 &lt; Access-Control-Allow-Origin: *
+7 &lt; Cache-Control: no-cache
+7 &lt; Referrer-Policy: strict-origin-when-cross-origin
+7 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+7 &lt; Vary: Accept-Encoding
+7 &lt; Warning: 119 - &quot;Deprecated API version. Will be removed on 2022-11-30&quot;
+7 &lt; X-Cache: Miss from cloudfront
+7 &lt; Via: 1.1 ff28c096d027c983cb30a1fcf83ea578.cloudfront.net (CloudFront)
+7 &lt; X-Amz-Cf-Pop: BOM78-P5
+7 &lt; X-Amz-Cf-Id: jX6NeZ34g54loqMMKXMYtupSBfUdFY4I9tcTv3V_O738Gy1XBVPDfA==
+{
+	&quot;id&quot;: 107277596,
+	&quot;project_id&quot;: 2302675592,
+	&quot;order&quot;: 2,
+	&quot;name&quot;: &quot;Groceries&quot;
+}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.26">
+      <div class="step-ref passed">26</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.27">
+      <div class="step-ref passed">27</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def sectionID = response.id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell comment">#Get a single section</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.30">
+      <div class="step-ref passed">30</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;sections/&#39;+sectionID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.31">
+      <div class="step-ref passed">31</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Authorization = &#39; Bearer &#39;+ tokenID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.32">
+      <div class="step-ref passed">32</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1311</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.44.0.call.0.32">14:20:52.797 request:
+8 &gt; GET https://api.todoist.com/rest/v1/sections/107277596
+8 &gt; Authorization:  Bearer d5e6004200dd0e7037eeb371cf23e6c9ec1c6d72
+8 &gt; Cookie: csrf=58aa3078a2e444e095e575f84e8e3e57
+8 &gt; Host: api.todoist.com
+8 &gt; Connection: Keep-Alive
+8 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.17)
+8 &gt; Accept-Encoding: gzip,deflate
+
+
+14:20:54.105 response time in milliseconds: 1307
+8 &lt; 200
+8 &lt; Content-Type: application/json
+8 &lt; Content-Length: 83
+8 &lt; Connection: keep-alive
+8 &lt; Date: Sat, 19 Nov 2022 08:50:53 GMT
+8 &lt; Access-Control-Allow-Credentials: false
+8 &lt; Access-Control-Allow-Origin: *
+8 &lt; Referrer-Policy: strict-origin-when-cross-origin
+8 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+8 &lt; Vary: Accept-Encoding
+8 &lt; Warning: 119 - &quot;Deprecated API version. Will be removed on 2022-11-30&quot;
+8 &lt; X-Cache: Miss from cloudfront
+8 &lt; Via: 1.1 5f77629b958f4c8136b55116def20b30.cloudfront.net (CloudFront)
+8 &lt; X-Amz-Cf-Pop: BOM78-P5
+8 &lt; X-Amz-Cf-Id: VtfL2oQTfWGPJsDhsboWSRVxXvCMblyVH6JCQhicyIrDEO5F_AbOeA==
+{
+	&quot;id&quot;: 107277596,
+	&quot;project_id&quot;: 2302675592,
+	&quot;order&quot;: 2,
+	&quot;name&quot;: &quot;Groceries&quot;
+}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.33">
+      <div class="step-ref passed">33</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell comment">#Update section</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.35">
+      <div class="step-ref passed">35</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;sections/&#39;+sectionID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.36">
+      <div class="step-ref passed">36</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def body1 = read(&quot;Data.json&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.37">
+      <div class="step-ref passed">37</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request body1.updateSection</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.38">
+      <div class="step-ref passed">38</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Authorization = &#39; Bearer &#39;+ tokenID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.39">
+      <div class="step-ref passed">39</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1532</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.44.0.call.0.39">14:20:54.116 request:
+9 &gt; POST https://api.todoist.com/rest/v1/sections/107277596
+9 &gt; Authorization:  Bearer d5e6004200dd0e7037eeb371cf23e6c9ec1c6d72
+9 &gt; Cookie: csrf=58aa3078a2e444e095e575f84e8e3e57
+9 &gt; Content-Type: application/json; charset=UTF-8
+9 &gt; Content-Length: 22
+9 &gt; Host: api.todoist.com
+9 &gt; Connection: Keep-Alive
+9 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.17)
+9 &gt; Accept-Encoding: gzip,deflate
+{&quot;name&quot;:&quot;Supermarket&quot;}
+
+14:20:55.644 response time in milliseconds: 1527
+9 &lt; 204
+9 &lt; Content-Type: text/html; charset=utf-8
+9 &lt; Connection: keep-alive
+9 &lt; Date: Sat, 19 Nov 2022 08:50:55 GMT
+9 &lt; Access-Control-Allow-Credentials: false
+9 &lt; Access-Control-Allow-Origin: *
+9 &lt; Cache-Control: no-cache
+9 &lt; Referrer-Policy: strict-origin-when-cross-origin
+9 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+9 &lt; Vary: Accept-Encoding
+9 &lt; Warning: 119 - &quot;Deprecated API version. Will be removed on 2022-11-30&quot;
+9 &lt; X-Cache: Miss from cloudfront
+9 &lt; Via: 1.1 3a2bb5bb725c81e445351e6220d093cc.cloudfront.net (CloudFront)
+9 &lt; X-Amz-Cf-Pop: BOM78-P5
+9 &lt; X-Amz-Cf-Id: 3PwZPf25mB7gIhYPZGnGl30bymCobNmlWyGyn2_iEDlqQefDiiqQEQ==
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.40">
+      <div class="step-ref passed">40</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 204</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell comment">#Delete a section</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.43">
+      <div class="step-ref passed">43</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;sections/&#39;+sectionID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.44">
+      <div class="step-ref passed">44</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Authorization = &#39; Bearer &#39;+ tokenID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.45">
+      <div class="step-ref passed">45</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Delete</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1329</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.44.0.call.0.45">14:20:55.650 request:
+10 &gt; DELETE https://api.todoist.com/rest/v1/sections/107277596
+10 &gt; Authorization:  Bearer d5e6004200dd0e7037eeb371cf23e6c9ec1c6d72
+10 &gt; Cookie: csrf=58aa3078a2e444e095e575f84e8e3e57
+10 &gt; Host: api.todoist.com
+10 &gt; Connection: Keep-Alive
+10 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.17)
+10 &gt; Accept-Encoding: gzip,deflate
+
+
+14:20:56.974 response time in milliseconds: 1324
+10 &lt; 204
+10 &lt; Content-Type: text/html; charset=utf-8
+10 &lt; Connection: keep-alive
+10 &lt; Date: Sat, 19 Nov 2022 08:50:56 GMT
+10 &lt; Access-Control-Allow-Credentials: false
+10 &lt; Access-Control-Allow-Origin: *
+10 &lt; Cache-Control: no-cache
+10 &lt; Referrer-Policy: strict-origin-when-cross-origin
+10 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+10 &lt; Vary: Accept-Encoding
+10 &lt; Warning: 119 - &quot;Deprecated API version. Will be removed on 2022-11-30&quot;
+10 &lt; X-Cache: Miss from cloudfront
+10 &lt; Via: 1.1 360075adf1c9391fe1ab46537f601412.cloudfront.net (CloudFront)
+10 &lt; X-Amz-Cf-Pop: BOM78-P5
+10 &lt; X-Amz-Cf-Id: z54pUVzsjnzueIpVCy4HZ2VdTmY9QzgZ1uDv9XqkcJPGsMFpLU-HWg==
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.46">
+      <div class="step-ref passed">46</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 204</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell comment">#Delete a project</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.49">
+      <div class="step-ref passed">49</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;projects/&#39;+projectID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.50">
+      <div class="step-ref passed">50</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Authorization = &#39; Bearer &#39;+ tokenID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.51">
+      <div class="step-ref passed">51</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Delete</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1022</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.44.0.call.0.51">14:20:56.982 request:
+11 &gt; DELETE https://api.todoist.com/rest/v1/projects/2302676063
+11 &gt; Authorization:  Bearer d5e6004200dd0e7037eeb371cf23e6c9ec1c6d72
+11 &gt; Cookie: csrf=58aa3078a2e444e095e575f84e8e3e57
+11 &gt; Host: api.todoist.com
+11 &gt; Connection: Keep-Alive
+11 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.17)
+11 &gt; Accept-Encoding: gzip,deflate
+
+
+14:20:57.999 response time in milliseconds: 1016
+11 &lt; 204
+11 &lt; Content-Type: text/html; charset=utf-8
+11 &lt; Connection: keep-alive
+11 &lt; Date: Sat, 19 Nov 2022 08:50:57 GMT
+11 &lt; Access-Control-Allow-Credentials: false
+11 &lt; Access-Control-Allow-Origin: *
+11 &lt; Cache-Control: no-cache
+11 &lt; Referrer-Policy: strict-origin-when-cross-origin
+11 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+11 &lt; Vary: Accept-Encoding
+11 &lt; Warning: 119 - &quot;Deprecated API version. Will be removed on 2022-11-30&quot;
+11 &lt; X-Cache: Miss from cloudfront
+11 &lt; Via: 1.1 80485f497dde60cfba8680bcbc6862d0.cloudfront.net (CloudFront)
+11 &lt; X-Amz-Cf-Pop: BOM78-P5
+11 &lt; X-Amz-Cf-Id: FR22OWdx8UMBJ-DtKU1cIYYoNQWDNEYRj6iqpBD-3qZUAJgsBaZYXg==
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.44.0.call">
+    <div class="step-container" id="0.44.0.call.0.52">
+      <div class="step-ref passed">52</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 204</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

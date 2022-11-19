@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: KarateAssignment.KarateTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.982 s - in KarateAssignment.KarateTest
